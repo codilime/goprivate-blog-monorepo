@@ -3,8 +3,8 @@ module example.org/backend
 go 1.18
 
 replace (
-	example.org/log => ../log
-	example.org/server => ../server
+	example.org/log => github.com/codilime/goprivate-blog-log v0.0.0-20230206091151-9fb711046a54
+	example.org/server => github.com/codilime/goprivate-blog-server v0.0.0-20230206091232-c11a2be1dce2
 )
 
 require (
